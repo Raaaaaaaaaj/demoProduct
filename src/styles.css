@@ -4,4 +4,11 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .vertical-divider {
+    border-right: 1px solid #dee2e6; /* Bootstrap का डिफ़ॉल्ट बॉर्डर कलर */
+    padding-right: 2rem; /* लाइन और कंटेंट के बीच गैप के लिए */
+  }
 }
