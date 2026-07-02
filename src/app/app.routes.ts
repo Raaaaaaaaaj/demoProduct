@@ -19,6 +19,13 @@ export const routes: Routes = [
       ),
   },
   {
+    path: 'product-details',
+    loadComponent: () =>
+      import('./features/products/components/product-details/product-details').then(
+        (m) => m.ProductDetails
+      ),
+  },
+  {
     path: '**',
     redirectTo: 'product',
   },
