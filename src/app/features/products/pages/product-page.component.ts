@@ -4,6 +4,7 @@ import { ProductList } from '../components/product-list/product-list';
 
 @Component({
   selector: 'app-product',
+  standalone: true,
   imports: [ProductFilter, ProductList],
   template: `
     <div class="row w-100">

@@ -1,0 +1,15 @@
+.position-sticky .d-flex{
+    transition:.25s;
+    cursor:pointer;
+    padding:10px;
+    border-radius:12px;
+}
+
+.position-sticky .d-flex:hover{
+    background:#f8f9fa;
+    transform:translateX(5px);
+}
+
+.position-sticky img{
+    object-fit:cover;
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15",
+    "price": 79999,
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Samsung S24",
+    "price": 69999,
+    "rating": 4.5,
+    "inStock": false
+  },
+  {
+    "id": 3,
+    "name": "Samsung S24",
+    "price": 69999,
+    "rating": 4.5,
+    "inStock": false
+  },
+  {
+    "id": 4,
+    "name": "Samsung S24",
+    "price": 69999,
+    "rating": 4.5,
+    "inStock": false
+  },
+  {
+    "id": 5,
+    "name": "Samsung S24",
+    "price": 69999,
+    "rating": 4.5,
+    "inStock": false
+  },
+  {
+    "id": 6,
+    "name": "Samsung S24",
+    "price": 69999,
+    "rating": 4.5,
+    "inStock": false
+  },
+  {
+    "id": 7,
+    "name": "Samsung S24",
+    "price": 69999,
+    "rating": 4.5,
+    "inStock": false
+  },
+  {
+    "id": 8,
+    "name": "Samsung S24",
+    "price": 69999,
+    "rating": 4.5,
+    "inStock": false
+  },
+  {
+    "id": 9,
+    "name": "Samsung S24",
+    "price": 69999,
+    "rating": 4.5,
+    "inStock": false
+  },
+  {
+    "id": 10,
+    "name": "Samsung S24",
+    "price": 69999,
+    "rating": 4.5,
+    "inStock": false
+  },
+  {
+    "id": 11,
+    "name": "Samsung S24",
+    "price": 69999,
+    "rating": 4.5,
+    "inStock": false
+  },
+  {
+    "id": 12,
+    "name": "Samsung S24",
+    "price": 69999,
+    "rating": 4.5,
+    "inStock": false
+  },
+  {
+    "id": 13,
+    "name": "Samsung S24",
+    "price": 69999,
+    "rating": 4.5,
+    "inStock": false
+  }
+]
