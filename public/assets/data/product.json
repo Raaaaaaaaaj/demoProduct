@@ -1,93 +1,702 @@
 [
   {
     "id": 1,
-    "name": "iPhone 15",
-    "price": 79999,
-    "rating": 4.7,
+    "name": "Phone 3",
+    "price": 25499,
+    "rating": 4.1,
     "inStock": true
   },
   {
     "id": 2,
-    "name": "Samsung S24",
-    "price": 69999,
-    "rating": 4.5,
-    "inStock": false
+    "name": "Flip 7",
+    "price": 120999,
+    "rating": 4.0,
+    "inStock": true
   },
   {
     "id": 3,
-    "name": "Samsung S24",
-    "price": 69999,
-    "rating": 4.5,
+    "name": "iPhone 16",
+    "price": 90499,
+    "rating": 5.0,
     "inStock": false
   },
   {
     "id": 4,
-    "name": "Samsung S24",
-    "price": 69999,
-    "rating": 4.5,
+    "name": "MX Master 3S",
+    "price": 88499,
+    "rating": 4.6,
     "inStock": false
   },
   {
     "id": 5,
-    "name": "Samsung S24",
-    "price": 69999,
-    "rating": 4.5,
+    "name": "Watch Series 10",
+    "price": 106999,
+    "rating": 4.8,
     "inStock": false
   },
   {
     "id": 6,
-    "name": "Samsung S24",
-    "price": 69999,
-    "rating": 4.5,
-    "inStock": false
+    "name": "ROG Phone 9",
+    "price": 155999,
+    "rating": 4.4,
+    "inStock": true
   },
   {
     "id": 7,
-    "name": "Samsung S24",
-    "price": 69999,
-    "rating": 4.5,
-    "inStock": false
+    "name": "PlayStation 5",
+    "price": 59999,
+    "rating": 4.3,
+    "inStock": true
   },
   {
     "id": 8,
-    "name": "Samsung S24",
-    "price": 69999,
-    "rating": 4.5,
-    "inStock": false
+    "name": "MacBook Air M4",
+    "price": 116999,
+    "rating": 4.7,
+    "inStock": true
   },
   {
     "id": 9,
-    "name": "Samsung S24",
-    "price": 69999,
-    "rating": 4.5,
-    "inStock": false
+    "name": "iPhone 16 (Blue)",
+    "price": 20499,
+    "rating": 3.9,
+    "inStock": true
   },
   {
     "id": 10,
-    "name": "Samsung S24",
-    "price": 69999,
+    "name": "iPad Air M3",
+    "price": 134499,
     "rating": 4.5,
-    "inStock": false
+    "inStock": true
   },
   {
     "id": 11,
-    "name": "Samsung S24",
-    "price": 69999,
-    "rating": 4.5,
-    "inStock": false
+    "name": "Pixel 9",
+    "price": 71999,
+    "rating": 4.9,
+    "inStock": true
   },
   {
     "id": 12,
-    "name": "Samsung S24",
-    "price": 69999,
+    "name": "Find X8",
+    "price": 127499,
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 13,
+    "name": "Edge 60",
+    "price": 48499,
+    "rating": 4.9,
+    "inStock": true
+  },
+  {
+    "id": 14,
+    "name": "ROG Phone 9 (512GB)",
+    "price": 52499,
+    "rating": 4.1,
+    "inStock": true
+  },
+  {
+    "id": 15,
+    "name": "WH-1000XM5",
+    "price": 27499,
+    "rating": 3.8,
+    "inStock": true
+  },
+  {
+    "id": 16,
+    "name": "Find X8 (Blue)",
+    "price": 33999,
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 17,
+    "name": "MX Master 3S (256GB)",
+    "price": 23999,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 18,
+    "name": "iPhone 16 (256GB)",
+    "price": 132999,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 19,
+    "name": "GT 7",
+    "price": 125999,
+    "rating": 4.1,
+    "inStock": true
+  },
+  {
+    "id": 20,
+    "name": "Watch Series 10 (512GB)",
+    "price": 19999,
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 21,
+    "name": "Galaxy S25",
+    "price": 115499,
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 22,
+    "name": "MX Master 3S (256GB)",
+    "price": 96999,
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 23,
+    "name": "Xiaomi 15",
+    "price": 74499,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 24,
+    "name": "AirPods Pro 2",
+    "price": 24499,
+    "rating": 4.1,
+    "inStock": true
+  },
+  {
+    "id": 25,
+    "name": "PlayStation 5 (256GB)",
+    "price": 126499,
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 26,
+    "name": "ROG Phone 9 (256GB)",
+    "price": 84499,
     "rating": 4.5,
     "inStock": false
   },
   {
-    "id": 13,
-    "name": "Samsung S24",
-    "price": 69999,
+    "id": 27,
+    "name": "Watch Series 10 (Blue)",
+    "price": 28499,
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 28,
+    "name": "Find X8 (Blue)",
+    "price": 7499,
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 29,
+    "name": "Pixel 9 Pro",
+    "price": 36999,
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 30,
+    "name": "Spectre x360",
+    "price": 38999,
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 31,
+    "name": "iPad Air M3 (Black)",
+    "price": 97999,
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 32,
+    "name": "Galaxy S24",
+    "price": 71499,
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 33,
+    "name": "Edge 60 (Silver)",
+    "price": 20999,
+    "rating": 4.0,
+    "inStock": false
+  },
+  {
+    "id": 34,
+    "name": "Pixel 9 Pro (Plus)",
+    "price": 76499,
+    "rating": 3.9,
+    "inStock": true
+  },
+  {
+    "id": 35,
+    "name": "Spectre x360 (Blue)",
+    "price": 89999,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 36,
+    "name": "Xiaomi 15 (512GB)",
+    "price": 65499,
+    "rating": 3.9,
+    "inStock": true
+  },
+  {
+    "id": 37,
+    "name": "Xiaomi 15 (Silver)",
+    "price": 22999,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 38,
+    "name": "PlayStation 5 (Pro)",
+    "price": 61499,
+    "rating": 4.9,
+    "inStock": true
+  },
+  {
+    "id": 39,
+    "name": "Watch Series 10 (256GB)",
+    "price": 60499,
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 40,
+    "name": "iPad Air M3 (Pro)",
+    "price": 4999,
+    "rating": 4.0,
+    "inStock": true
+  },
+  {
+    "id": 41,
+    "name": "WH-1000XM5 (Blue)",
+    "price": 110499,
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 42,
+    "name": "Find X8 (Blue)",
+    "price": 8999,
+    "rating": 3.9,
+    "inStock": true
+  },
+  {
+    "id": 43,
+    "name": "Pixel 9 Pro (Pro)",
+    "price": 12499,
+    "rating": 4.9,
+    "inStock": true
+  },
+  {
+    "id": 44,
+    "name": "Edge 60 (512GB)",
+    "price": 37499,
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 45,
+    "name": "Vivo X200",
+    "price": 132999,
+    "rating": 4.0,
+    "inStock": true
+  },
+  {
+    "id": 46,
+    "name": "Galaxy S24 (Pro)",
+    "price": 21499,
+    "rating": 4.3,
+    "inStock": false
+  },
+  {
+    "id": 47,
+    "name": "iPad Air M3 (Blue)",
+    "price": 119999,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 48,
+    "name": "ROG Phone 9 (Blue)",
+    "price": 56499,
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 49,
+    "name": "Xiaomi 15 (Silver)",
+    "price": 35999,
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 50,
+    "name": "iPhone 16 (Silver)",
+    "price": 77999,
+    "rating": 3.8,
+    "inStock": true
+  },
+  {
+    "id": 51,
+    "name": "Flip 7 (Plus)",
+    "price": 33999,
+    "rating": 4.9,
+    "inStock": false
+  },
+  {
+    "id": 52,
+    "name": "iPhone 15",
+    "price": 84999,
+    "rating": 4.9,
+    "inStock": true
+  },
+  {
+    "id": 53,
+    "name": "WH-1000XM5 (Black)",
+    "price": 10499,
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 54,
+    "name": "iPhone 16 (Plus)",
+    "price": 158499,
+    "rating": 4.8,
+    "inStock": false
+  },
+  {
+    "id": 55,
+    "name": "OnePlus 13",
+    "price": 150499,
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 56,
+    "name": "iPhone 15 (Blue)",
+    "price": 51499,
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 57,
+    "name": "Watch Series 10 (Blue)",
+    "price": 144999,
+    "rating": 4.7,
+    "inStock": false
+  },
+  {
+    "id": 58,
+    "name": "GT 7 (Pro)",
+    "price": 54499,
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 59,
+    "name": "Find X8 (256GB)",
+    "price": 91999,
+    "rating": 3.9,
+    "inStock": true
+  },
+  {
+    "id": 60,
+    "name": "Vivo X200 (256GB)",
+    "price": 10499,
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 61,
+    "name": "Galaxy S24 (Pro)",
+    "price": 89999,
+    "rating": 4.7,
+    "inStock": false
+  },
+  {
+    "id": 62,
+    "name": "Edge 60 (Pro)",
+    "price": 33499,
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 63,
+    "name": "Pixel 9 Pro (Pro)",
+    "price": 105499,
+    "rating": 4.8,
+    "inStock": false
+  },
+  {
+    "id": 64,
+    "name": "Watch Series 10 (Blue)",
+    "price": 158499,
+    "rating": 3.9,
+    "inStock": true
+  },
+  {
+    "id": 65,
+    "name": "iPad Air M3 (Silver)",
+    "price": 33999,
+    "rating": 3.8,
+    "inStock": true
+  },
+  {
+    "id": 66,
+    "name": "Phone 3 (Silver)",
+    "price": 113999,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 67,
+    "name": "Galaxy S24 (512GB)",
+    "price": 16499,
+    "rating": 4.8,
+    "inStock": false
+  },
+  {
+    "id": 68,
+    "name": "Find X8 (Silver)",
+    "price": 73999,
+    "rating": 4.1,
+    "inStock": true
+  },
+  {
+    "id": 69,
+    "name": "iPhone 16 (Pro)",
+    "price": 93999,
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 70,
+    "name": "iPad Air M3 (Plus)",
+    "price": 146999,
+    "rating": 4.9,
+    "inStock": true
+  },
+  {
+    "id": 71,
+    "name": "Flip 7 (Plus)",
+    "price": 34499,
+    "rating": 3.9,
+    "inStock": true
+  },
+  {
+    "id": 72,
+    "name": "Watch Series 10 (Blue)",
+    "price": 6999,
+    "rating": 3.9,
+    "inStock": false
+  },
+  {
+    "id": 73,
+    "name": "iPhone 15 (Pro)",
+    "price": 155999,
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 74,
+    "name": "Galaxy S24 (Blue)",
+    "price": 48499,
+    "rating": 4.9,
+    "inStock": true
+  },
+  {
+    "id": 75,
+    "name": "PlayStation 5 (512GB)",
+    "price": 139499,
+    "rating": 4.6,
+    "inStock": false
+  },
+  {
+    "id": 76,
+    "name": "Find X8 (512GB)",
+    "price": 63499,
+    "rating": 3.9,
+    "inStock": true
+  },
+  {
+    "id": 77,
+    "name": "Vivo X200 (Black)",
+    "price": 91999,
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 78,
+    "name": "iPad Air M3 (Plus)",
+    "price": 48499,
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 79,
+    "name": "iPad Air M3 (Pro)",
+    "price": 127999,
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 80,
+    "name": "Watch Series 10 (256GB)",
+    "price": 94499,
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 81,
+    "name": "iPad Air M3 (Black)",
+    "price": 110499,
+    "rating": 3.8,
+    "inStock": false
+  },
+  {
+    "id": 82,
+    "name": "MacBook Air M4 (Blue)",
+    "price": 50499,
     "rating": 4.5,
     "inStock": false
+  },
+  {
+    "id": 83,
+    "name": "WH-1000XM5 (Blue)",
+    "price": 75499,
+    "rating": 4.6,
+    "inStock": false
+  },
+  {
+    "id": 84,
+    "name": "XPS 13",
+    "price": 39499,
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 85,
+    "name": "iPhone 16 (Silver)",
+    "price": 138999,
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 86,
+    "name": "PlayStation 5 (Silver)",
+    "price": 83499,
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 87,
+    "name": "iPad Air M3 (512GB)",
+    "price": 143999,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 88,
+    "name": "Legion 5",
+    "price": 113999,
+    "rating": 5.0,
+    "inStock": true
+  },
+  {
+    "id": 89,
+    "name": "AirPods Pro 2 (Silver)",
+    "price": 146999,
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 90,
+    "name": "Xiaomi 15 (Black)",
+    "price": 86999,
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 91,
+    "name": "Phone 3 (Black)",
+    "price": 64499,
+    "rating": 4.9,
+    "inStock": false
+  },
+  {
+    "id": 92,
+    "name": "iPad Air M3 (Black)",
+    "price": 85499,
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 93,
+    "name": "MacBook Air M4 (256GB)",
+    "price": 150999,
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 94,
+    "name": "Edge 60 (512GB)",
+    "price": 50499,
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 95,
+    "name": "WH-1000XM5 (Black)",
+    "price": 9499,
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 96,
+    "name": "XPS 13 (Black)",
+    "price": 45999,
+    "rating": 4.7,
+    "inStock": false
+  },
+  {
+    "id": 97,
+    "name": "PlayStation 5 (Plus)",
+    "price": 145999,
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 98,
+    "name": "Flip 7 (Pro)",
+    "price": 158999,
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 99,
+    "name": "iPhone 15 (Blue)",
+    "price": 72999,
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 100,
+    "name": "MacBook Air M4 (Silver)",
+    "price": 91499,
+    "rating": 3.8,
+    "inStock": true
   }
 ]
