@@ -10,11 +10,12 @@ import { CommonModule } from '@angular/common';
 
 import { ProductService } from '../../../../core/services/product.service';
 import { Product } from '../../../../core/models/product.model';
+import {CartButton} from "../../../../shared/components/cart-button.component";
 
 @Component({
   selector: 'app-product-list',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CartButton],
   templateUrl: './product-list.html',
   styleUrl: './product-list.css',
 })
