@@ -7,7 +7,7 @@ import {
   ChangeDetectorRef,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import {RouterLink} from "@angular/router";
 import { ProductService } from '../../../../core/services/product.service';
 import { Product } from '../../../../core/models/product.model';
 import {CartButton} from "../../../../shared/components/cart-button.component";
@@ -15,7 +15,7 @@ import {CartButton} from "../../../../shared/components/cart-button.component";
 @Component({
   selector: 'app-product-list',
   standalone: true,
-  imports: [CommonModule, CartButton],
+  imports: [CommonModule, CartButton, RouterLink],
   templateUrl: './product-list.html',
   styleUrl: './product-list.css',
 })

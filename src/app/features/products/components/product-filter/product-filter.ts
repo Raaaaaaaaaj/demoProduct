@@ -20,14 +20,11 @@ export class ProductFilter {
 
   constructor() {
     this.searchControl.valueChanges
-      .pipe(
-        debounceTime(500),
-        distinctUntilChanged()
-      )
-      .subscribe(value => {
+      .pipe(debounceTime(500), distinctUntilChanged())
+      .subscribe((value) => {
         this.searchTerm = value;
         this.onFilterChange();
-      })
+      });
   }
 
   onFilterChange() {
@@ -36,8 +33,8 @@ export class ProductFilter {
       minPrice: this.minPrice,
       maxPrice: this.maxPrice,
       sortBy: this.sortBy,
-    }
-    this.filterChanged.emit(filter)
+    };
+    this.filterChanged.emit(filter);
   }
 
   // clear all the filters
@@ -52,11 +49,51 @@ export class ProductFilter {
     this.onFilterChange();
   }
 
-  // emiting event 
+  // emiting event
   @Output() filterChanged = new EventEmitter<{
     search: string;
     minPrice: number;
     maxPrice: number;
     sortBy: string;
-  }>
+  }>();
+
+  onMinSliderChange() {
+    if (this.minPrice > this.maxPrice) {
+      this.minPrice = this.maxPrice;
+    }
+
+    this.onFilterChange();
+  }
+
+  onMaxSliderChange() {
+    if (this.maxPrice < this.minPrice) {
+      this.maxPrice = this.minPrice;
+    }
+
+    this.onFilterChange();
+  }
+
+  onMinInputChange() {
+    if (this.minPrice < 0) {
+      this.minPrice = 0;
+    }
+
+    if (this.minPrice > this.maxPrice) {
+      this.minPrice = this.maxPrice;
+    }
+
+    this.onFilterChange();
+  }
+
+  onMaxInputChange() {
+    if (this.maxPrice > this.Max_Price) {
+      this.maxPrice = this.Max_Price;
+    }
+
+    if (this.maxPrice < this.minPrice) {
+      this.maxPrice = this.minPrice;
+    }
+
+    this.onFilterChange();
+  }
 }
