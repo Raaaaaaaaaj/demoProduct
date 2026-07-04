@@ -15,7 +15,6 @@
             {{ product.name }}
           </h5>
 
-          <!-- Rating -->
           <div class="d-flex align-items-center mb-3">
             <span class="text-warning fs-6"> ★★★★★ </span>
 
@@ -29,19 +28,16 @@
             </span>
           </div>
 
-          <!-- Stock Status -->
           <div class="mb-4">
             @if (product.inStock) {
               <span class="badge text-bg-success px-3 py-2"> In Stock </span>
             }
 
-            <!-- Out of Stock Example -->
             @else {
               <span class="badge text-bg-danger px-3 py-2"> Out of Stock </span>
             }
           </div>
 
-          <!-- Button -->
           <button class="btn btn-primary w-100 mt-auto">Add to Cart</button>
         </div>
       </div>
@@ -62,7 +58,7 @@
     <button
         class="btn btn-primary"
         (click)="next()"
-        [disabled]="page * pageSize >= products.length">
+        [disabled]="page * pageSize >= filteredProducts.length">
         Next
     </button>
 

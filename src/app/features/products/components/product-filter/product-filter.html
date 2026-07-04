@@ -15,7 +15,13 @@
     <div class="row">
       <div class="col-lg-6 col-md-3">
         <label class="form-label fw-semibold"> Min Price </label>
-        <input type="number" class="form-control w-full" placeholder="₹0" [(ngModel)]="minPrice" />
+        <input 
+          type="number" 
+          class="form-control w-full" 
+          placeholder="₹0" 
+          [(ngModel)]="minPrice"
+          (ngModelChange)="onFilterChange()"
+        />
       </div>
       <!-- Max Price -->
       <div class="col-lg-6 col-md-3">
@@ -26,6 +32,7 @@
           placeholder="₹5000"
           [max]="Max_Price"
           [(ngModel)]="maxPrice"
+          (ngModelChange)="onFilterChange()"
         />
       </div>
     </div>
@@ -34,7 +41,10 @@
   <!-- Sort -->
   <div class="col-lg-12 col-md-6">
     <label class="form-label fw-semibold"> Sort By </label>
-    <select class="form-select" [(ngModel)]="sortBy">
+    <select 
+      class="form-select" 
+      [(ngModel)]="sortBy"
+      (ngModelChange)="onFilterChange()">
       <option value="newest" selected>Newest</option>
       <option value="priceAsc">Price: Low to High</option>
       <option value="priceDesc">Price: High to Low</option>
@@ -55,6 +65,7 @@
           min="0" 
           [max]="Max_Price" 
           [(ngModel)]="maxPrice" 
+          (input)="onFilterChange()"
         />
         <div class="d-flex justify-content-between small text-muted">
           <span>₹{{minPrice}}</span>
@@ -69,5 +80,10 @@
 
 <!-- Clear -->
 <div class="col-lg-12 col-md-6 d-grid">
-  <button class="btn btn-outline-secondary border-danger">Clear</button>
+  <button 
+    class="btn btn-outline-secondary border-danger"
+    (click)="clearFilters()"
+  >
+  Clear
+</button>
 </div>

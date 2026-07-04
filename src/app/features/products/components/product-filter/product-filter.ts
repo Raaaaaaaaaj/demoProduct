@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import {FormsModule, ReactiveFormsModule, FormControl} from '@angular/forms';
+import { Component, Output, EventEmitter } from '@angular/core';
+import { FormsModule, ReactiveFormsModule, FormControl } from '@angular/forms';
 import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
 
 @Component({
@@ -16,16 +16,47 @@ export class ProductFilter {
   maxPrice = this.Max_Price;
   sortBy = 'newest';
 
-  searchControl = new FormControl('', {nonNullable: true});
-  
-  constructor(){
+  searchControl = new FormControl('', { nonNullable: true });
+
+  constructor() {
     this.searchControl.valueChanges
-    .pipe(
-      debounceTime(500),
-      distinctUntilChanged()
-    )
-    .subscribe(value => {
-      console.log(value);
-    })
+      .pipe(
+        debounceTime(500),
+        distinctUntilChanged()
+      )
+      .subscribe(value => {
+        this.searchTerm = value;
+        this.onFilterChange();
+      })
   }
+
+  onFilterChange() {
+    const filter = {
+      search: this.searchControl.value,
+      minPrice: this.minPrice,
+      maxPrice: this.maxPrice,
+      sortBy: this.sortBy,
+    }
+    this.filterChanged.emit(filter)
+  }
+
+  // clear all the filters
+  clearFilters() {
+    this.searchTerm = '';
+    this.searchControl.setValue('');
+
+    this.minPrice = 0;
+    this.maxPrice = this.Max_Price;
+    this.sortBy = 'newest';
+
+    this.onFilterChange();
+  }
+
+  // emiting event 
+  @Output() filterChanged = new EventEmitter<{
+    search: string;
+    minPrice: number;
+    maxPrice: number;
+    sortBy: string;
+  }>
 }
